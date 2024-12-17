@@ -10,9 +10,9 @@ function Video(){
      progreso = document.getElementById('progreso');
     
      play.addEventListener('click',this.reproducir);
-    
+   /* 
     progreso.addEventListener('click',adelantos,false);
-    
+    */
     }
     this.reproducir = () =>{
         console.log(video)
